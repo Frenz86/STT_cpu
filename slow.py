@@ -9,7 +9,6 @@ import json
 from datetime import datetime
 warnings.filterwarnings("ignore")
 
-# Initial configuration
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 DTYPE = torch.float16 if DEVICE == "cuda" else torch.float32
 
