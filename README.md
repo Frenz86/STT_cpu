@@ -1,1 +1,4 @@
-# STT_cpu
+Install
+`pip install -r requirements`
+
+python app.py
